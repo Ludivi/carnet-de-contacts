@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    
+  </head>
+  <body>
+    
+            <br/>
+      <h1>Carnet de contact</h1>
+    </div>
+
+    <div class="formulaireDiv">
+      <form id="formContact">
+        <label><strong>Nom</strong></label>
+        <input name="lastname" type="text" placeholder="Votre nom" />
+        <br />
+        <br />
+        <label><strong>Prenom</strong></label>
+        <input name="firstname" type="text" placeholder="Votre Prenom" />
+        <br />
+        <br />
+        <label><strong>Age</strong></label>
+        <input type="text" name="age" placeholder="Votre age" />
+        <br />
+        <br />
+        <label><strong>Téléphone</strong></label>
+        <input type="text" name="phone" placeholder="Votre tel" />
+        <br />
+        <br />
+        <label><strong>Email</strong></label>
+        <input type="text" name="email" placeholder="Votre mail" />
+        <br />
+        <br />
+        <label for="address"><strong>Adresse:</strong> </label>
+        <input
+          type="text"
+          placeholder="Adresse"
+          id="address"
+          name="adress"
+          required
+        />
+        <br />
+        <br />
+        <label for="company"><strong>Entreprise: </strong></label>
+        <input
+          type="text"
+          placeholder="Entreprise"
+          id="company"
+          name="company"
+          required
+        />
+        <br />
+        <br />
+        <label for="type"><strong>Type de contact:</strong> </label>
+        <select id="select" name="type">
+          <option value="Professionnel">Professionnel</option>
+          <option value="Personnel">Personnel</option>
+        </select>
+        <br />
+        <br />
+        <button type="submit">Ajouter</button>
+      </form>
+    </div>
+    <div><h1>Tout vos contacts</h1></div>
+    <div class="contactDiv"></div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
